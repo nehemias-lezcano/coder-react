@@ -1,14 +1,15 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar';
-import ItemListContainer from './components/ItemListContainer/itemlistcontainer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <ItemListContainer greeting="Bienvenidos a NewPes"/>
-
+    <div >
+       <NavBar/>
+       <ItemListContainer greeting='Bienvenidos a NewPes'/>
     </div>
-  ) 
+  );
 }
+
 export default App;
